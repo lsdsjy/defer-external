@@ -1,0 +1,16 @@
+<html>
+  <head></head>
+  <body>
+    <script type="module">
+      import { defer } from '../lib/main.mjs';
+      window.jqueryProxy = defer(
+        'https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js',
+        '$'
+      )
+      window.lottieProxy = defer(
+        'https://cdn.jsdelivr.net/npm/lottie-web@5.7.13/build/player/lottie.min.js',
+        'lottie'
+      )
+    </script>
+  </body>
+</html>

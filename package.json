@@ -1,0 +1,25 @@
+{
+  "name": "defer-external",
+  "version": "1.0.0",
+  "description": "Defer loading externalized modules.",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "webpack",
+    "watch": "nodemon --exec \"npm start\" --ignore \"dist\" --ext \".js,.html\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
